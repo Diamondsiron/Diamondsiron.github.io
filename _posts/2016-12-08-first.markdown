@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "first"
+date:   2016-12-08 14:57:51 +0800
+categories: jekyll update
+---
+## 前言
+
+Diamondsiron 的 Blog 就这么开通了。
+
+[跳过废话，直接看技术实现 ](#build) 
+
+
+
+2015 年，Diamondsiron 总算有个地方可以好好写点东西了。
+
+
+作为一个程序员， 总归是要慢慢开始鼓捣github。
+
+
+<p id = "build"></p>
+---
+
+## 正文
+
+接下来说说搭建这个博客的技术细节。  
+
+正好之前就有关注过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。
+
+其优点非常明显：
+
+* **Markdown** 带来的优雅写作体验
+* 非常熟悉的 Git workflow ，**Git Commit 即 Blog Post**
+* 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
+	* 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了 
+* Jekyll 的自定制非常容易，基本就是个模版引擎
+
+
+
+
+---
+
+配置的过程中基本有点坑，基本就是 Git 的流程，首先是更换ruby源。
+
+new jekyll 的时候各种插件缺失，都是gem一个一个手动安装的。
+
+最后安装完一个个小组件，新建ok！
+
+
+
+
+## 后记
+
+步入全球最大男性交友平台。
+以后在慢慢修改样式，毕竟内容为王
+
+—— Diamondsiron 后记于 2016.12
